@@ -4,4 +4,3 @@
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp -r Image $DEPLOYPATH
-    - /bin/cp script.js $DEPLOYPATH
