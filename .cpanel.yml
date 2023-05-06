@@ -1,6 +1,8 @@
-    deployment:
+---
+deployment:
   tasks:
-    - export DEPLOYPATH=/home/anna1557/public_html/
+    - export DEPLOYPATH=/home/example/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp -r Image $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
